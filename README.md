@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -59,3 +60,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# pixel-positions-laravel-app
+Pixel Positions – Job Board Application A dynamic job board built with Laravel and MySQL. Users can browse and post job listings, edit job details, and experience core Laravel features like routing, Blade templates, Eloquent ORM, and migrations. Includes responsive design with Tailwind CSS for a clean UI.
+>>>>>>> 8d83f367d716899d1d6cf8090b47841a992e020e
