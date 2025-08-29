@@ -11,7 +11,7 @@ Pixel Positions is a dynamic **Job Board Application** built using the Laravel f
 - Employer Management
 - Many-to-Many Relationship between Jobs and Tags
 - Responsive UI with **Tailwind CSS**
-- SQLite database for development
+- MySQl database for development
 
 ---
 
