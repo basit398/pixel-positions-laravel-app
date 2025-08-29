@@ -1,66 +1,99 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Pixel Positions – Laravel Job Board Application
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Pixel Positions is a dynamic **Job Board Application** built using the Laravel framework. It allows users to browse job listings, create new jobs, and manage employers and tags. The application implements **authentication**, **job CRUD operations**, and a **search feature**, all wrapped in a clean, responsive UI built with **Tailwind CSS**.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Features
+- User Registration & Login
+- Post, Edit, and Delete Job Listings
+- Job Search by Title, Tags, and Company
+- Employer Management
+- Many-to-Many Relationship between Jobs and Tags
+- Responsive UI with **Tailwind CSS**
+- SQLite database for development
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🛠️ Tech Stack
+- **Backend:** Laravel 10, PHP 8+
+- **Frontend:** Blade Templates, Tailwind CSS
+- **Database:** SQLite (can be changed to MySQL)
+- **Authentication:** Laravel Breeze / Default Auth
+- **Version Control:** Git & GitHub
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 📸 Screenshots
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 🏠 Home Page
+![Home](public/screenshots/Home.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 🏠 Home Page (Part 2)
+![Home Part 2](public/screenshots/Home-part-2.png)
 
-## Laravel Sponsors
+### 🔐 Login Page
+![Login](public/screenshots/Login.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 📝 Register Page
+![Register](public/screenshots/Register.png)
 
-### Premium Partners
+### ➕ Post a Job Page
+![Post Job](public/screenshots/post-job.png)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## ⚙️ Installation Guide
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Follow these steps to set up the project locally:
 
-## Code of Conduct
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/basit398/pixel-positions-laravel-app.git
+cd pixel-positions-laravel-app
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 2️⃣ Install Dependencies
+```bash
+composer install
+npm install
+```
 
-## Security Vulnerabilities
+### 3️⃣ Environment Setup
+- Duplicate `.env.example` and rename it to `.env`
+- Generate application key:
+```bash
+php artisan key:generate
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 4️⃣ Database Setup
+- Update `.env` with your database credentials (or keep SQLite for quick start)
+- Run migrations and seeders:
+```bash
+php artisan migrate --seed
+```
 
-## License
+### 5️⃣ Start the Development Server
+```bash
+php artisan serve
+npm run dev
+```
+Access the app at **http://127.0.0.1:8000**.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# pixel-positions-laravel-app
-Pixel Positions – Job Board Application A dynamic job board built with Laravel and MySQL. Users can browse and post job listings, edit job details, and experience core Laravel features like routing, Blade templates, Eloquent ORM, and migrations. Includes responsive design with Tailwind CSS for a clean UI.
->>>>>>> 8d83f367d716899d1d6cf8090b47841a992e020e
+---
+
+## 🧪 Running Tests
+```bash
+php artisan test
+```
+
+---
+
+## 📜 License
+This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+### ✅ Author
+Developed by **Basit**  
+GitHub: [basit398](https://github.com/basit398)
