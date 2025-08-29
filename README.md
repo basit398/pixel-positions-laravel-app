@@ -18,7 +18,7 @@ Pixel Positions is a dynamic **Job Board Application** built using the Laravel f
 ## 🛠️ Tech Stack
 - **Backend:** Laravel 10, PHP 8+
 - **Frontend:** Blade Templates, Tailwind CSS
-- **Database:** SQLite (can be changed to MySQL)
+- **Database:**  MySQL
 - **Authentication:** Laravel Breeze / Default Auth
 - **Version Control:** Git & GitHub
 
