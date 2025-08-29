@@ -27,19 +27,19 @@ Pixel Positions is a dynamic **Job Board Application** built using the Laravel f
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](public/screenshots/Home.png)
+![Home](screenshots/Home.png)
 
 ### 🏠 Home Page (Part 2)
-![Home Part 2](public/screenshots/Home-part-2.png)
+![Home Part 2](screenshots/Home-part-2.png)
 
 ### 🔐 Login Page
-![Login](public/screenshots/Login.png)
+![Login](screenshots/Login.png)
 
 ### 📝 Register Page
-![Register](public/screenshots/Register.png)
+![Register](screenshots/Register.png)
 
 ### ➕ Post a Job Page
-![Post Job](public/screenshots/post-job.png)
+![Post Job](screenshots/post-job.png)
 
 ---
 
